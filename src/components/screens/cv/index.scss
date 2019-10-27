@@ -1,0 +1,15 @@
+.Cv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .cv-img{
+    width: 50%;
+  }
+
+  @media screen and (max-width: 480px) {
+ .cv-img{
+    width: 100%;
+  }
+}
+  
+}

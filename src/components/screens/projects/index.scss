@@ -1,0 +1,57 @@
+.Projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    padding: 5%;
+    font-size: 60px;
+    color: rgb(82, 82, 82);
+  }
+  span{
+    border-bottom: #843369 solid 4px;
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+.tot{
+  background: rgba(231, 231, 231, 0.87);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6%;
+}
+.tot2{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6%;
+}
+
+  .project-wrapper{
+    width: 50%;
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  .img-resto{
+    width: 100%;
+  }
+  a{ 
+    color: #843369;
+    font-weight: bold;
+    }
+
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+  .project-wrapper{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-wrapper{
+    width: 90%;
+  }
+  h1{
+    font-size: 40px;
+  }
+}
+}
