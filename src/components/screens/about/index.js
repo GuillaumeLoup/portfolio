@@ -6,7 +6,9 @@ class About extends Component {
   render() {
     return(
       <div className="About">
+        <div className="img-wrap">
         <img className="img-profil" src={profil} alt="profil" />
+        </div>
         <div className="text-wrapper">
         <h1 className="name">Guillaume Loup</h1>
         <h3 className="job">développeur web full-stack ReactJs NodeJs</h3>
