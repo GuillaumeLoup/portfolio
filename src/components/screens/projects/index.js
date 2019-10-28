@@ -63,7 +63,7 @@ class Projects extends Component {
           <img className="img-resto" src={sqal} alt="restaurant" />
         </div>
         </div>
-        <h2>J'ai réalisé d'autres projets que je ne peux pas mettre ici car ces derniers sont privés</h2>
+
       </div>
     )
   }
