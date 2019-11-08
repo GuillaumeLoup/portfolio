@@ -12,7 +12,7 @@ class Inter extends Component {
           <div className="wrapper">
           <FontAwesomeIcon
               icon="id-card"
-              color="rgb(11, 19, 134)"
+              color="rgb(0, 3, 44)"
               size="md"
             />
            Mon CV

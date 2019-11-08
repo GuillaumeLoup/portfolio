@@ -12,7 +12,7 @@ class InterProj extends Component {
           <div className="wrapper">
           <FontAwesomeIcon
               icon="globe"
-              color="rgb(11, 19, 134)"
+              color="rgb(0, 3, 44)"
               size="md"
             />
            Mes Projets
