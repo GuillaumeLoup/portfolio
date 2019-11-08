@@ -10,6 +10,10 @@
   width: 50%;
   border-radius: 4px;
 }
+.job{
+  font-weight: bold;
+  color: rgb(117, 194, 181);
+}
 .img-wrap{
 
   width: 100%;
@@ -21,9 +25,26 @@
   padding: 8%;
   color: rgb(98, 98, 98);
 }
+.awssld{
+  --organic-arrow-color: rgb(117, 194, 181);
+}
+.aws-sld__bullets {
+  bottom: 10px;
+  z-index: 3;
+  margin-top: 10px;
+}
+.awssld__bullets .awssld__bullets--active{
+  background: rgb(117, 194, 181);
+}
+
+.awssld__content{
+  background: white;
+}
 
 .description{
-  line-height: 23px;
+  line-height: 28px;
+  padding: 10%;
+  font-weight: 600;
 }
 h1{
   font-size: 20px;

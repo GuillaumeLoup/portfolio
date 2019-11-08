@@ -9,7 +9,7 @@ class Inter extends Component {
       <div className="Inter">
         <NavLink to="/cv">
           <div className="wrapper">
-            CV
+           Mon CV
           </div>
         </NavLink>
       </div>
