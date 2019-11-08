@@ -17,7 +17,7 @@ class About extends Component {
     },
     {
       id: 3,
-      text: "J'ai réalisé plusieurs projets visibles en cliquant sur la catégories mes projets tout à droite de l'écran"
+      text: "J'ai réalisé plusieurs projets visibles en cliquant sur la catégorie 'mes projets' tout à droite de l'écran"
     }
     ]
     return(
