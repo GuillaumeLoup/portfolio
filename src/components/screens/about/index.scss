@@ -6,6 +6,7 @@
 
   align-items: center;
   color: white;
+
 .img-profil{
   width: 50%;
   border-radius: 4px;
@@ -14,6 +15,7 @@
   font-weight: bold;
   color: rgb(0, 3, 44);
   font-size: 20px;
+  margin-bottom: 40px;
 }
 .img-wrap{
 
@@ -69,8 +71,6 @@ p{
   height: 80vh;
 }
 
-
-
 // .area{
 //   position: absolute;
 //   top: 50%;
@@ -90,39 +90,15 @@ p{
   z-index: -2;
 }
 
+.logo-wrapper img{
+  width: 10%;
+}
+
 .name{
-  top: -100px;
-  position: absolute;
-  background: rgb(0, 6, 90);
-  padding: 10px;
-  font-weight: 500;
-  font-size: 18px;
-  color: #fff;
-  transition: 1s;
-  
-/*   z-index: -1; */
+  color: rgb(0, 3, 44);
+  font-size: 25px;
+  font-weight: bold;
 }
-
-.container:hover .name{
-  
-  transform: translateX(150px) translateY(450px);
-/*   z-index: 1; */
-  
-}
-
-// .name-bg{
-//   position: absolute;
-//   background: rgba(255, 255, 255, .5);
-//   height: 60px;
-//   width: 180px;
-//   bottom: 0;
-//   left: 70px;
-//   z-index:1 ;
-//   transition: 1s;
-//   transform: perspective(400px) rotateY(-90deg);
-//   transform-origin: left;
-// }
-
 .container:hover .name-bg{
   transform: perspective(400px) rotateY(0deg);
   z-index: -1;
