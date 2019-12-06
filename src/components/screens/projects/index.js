@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import resto from '../../../assets/resto.jpg';
 import easter from '../../../assets/easter.jpg';
 import sqal from '../../../assets/sqal.jpg';
+import deskalia from '../../../assets/deskalia.jpg';
 import './index.scss';
 
 class Projects extends Component {
@@ -31,6 +32,37 @@ class Projects extends Component {
           <img className="img-resto" src={resto} alt="restaurant" />
         </div>
         </div>
+        
+        <div className="tot2">
+        <div className="project-wrapper">
+          
+             <h2> Site SQAL</h2>
+            <p>
+              Il m'a été demandé de refaire le site de la société SQAL en respectant
+              une maquette réalisée par l'UX designer de notre société.
+              Bien sûr le site est responsive.
+              Ce site est consultable via ce lien: {" "}
+              <a href="https://sqal-website.herokuapp.com/" target="blank">lien vers le site</a>
+          </p>
+          <img className="img-resto" src={sqal} alt="sqal" />
+        </div>
+        </div>
+        <div className="tot">
+        <div className="project-wrapper">
+          
+             <h2>Site de mise en relation entre avocats et clients</h2>
+            <p>
+              Il m'a a été demandé de développer
+              un site permettant de choisir un avocat selon ses compétences et de pouvoir le contacter
+              via une vidéconférence. 
+              Ceci est faisaible dna sla rubrique "Nos conseillers" il faut clqiuer sur "choisissez votre conseiller" 
+              et "contacter ce conseiller"
+              Ce site est consultable via ce lien: {" "}
+              <a href="https://dazzling-kowalevski-e41b9f.netlify.com/" target="blank"> lien vers le site</a>
+          </p>
+          <img className="img-resto" src={deskalia} alt="site avocats" />
+        </div>
+        </div>
         <div className="tot2">
         <div className="project-wrapper">
           
@@ -47,20 +79,6 @@ class Projects extends Component {
               <a href="https://dazzling-shannon-cd83bf.netlify.com/" target="blank">lien vers le site</a>
           </p>
           <img className="img-resto" src={easter} alt="restaurant" />
-        </div>
-        </div>
-        <div className="tot">
-        <div className="project-wrapper">
-          
-             <h2> Site SQAL</h2>
-            <p>
-              Il m'a été demandé de refaire le site de la société SQAL en respectant
-              une maquette réalisée par l'UX designer de notre société.
-              Bien sûr le site est responsive.
-              Ce site est consultable via ce lien: {" "}
-              <a href="https://sqal-website.herokuapp.com/" target="blank">lien vers le site</a>
-          </p>
-          <img className="img-resto" src={sqal} alt="restaurant" />
         </div>
         </div>
 
