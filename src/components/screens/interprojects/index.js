@@ -10,12 +10,14 @@ class InterProj extends Component {
       <div className="InterProj">
         <NavLink to="/projects">
           <div className="wrapper">
+          <div className="button-cv">
           <FontAwesomeIcon
               icon="globe"
-              color="rgb(0, 3, 44)"
+              color="rgb(236, 208, 37)"
               size="md"
             />
            Mes Projets
+           </div>
           </div>
         </NavLink>
       </div>

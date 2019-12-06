@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
   }
 
   a{
@@ -64,5 +65,13 @@
     .wrapper{
     font-size: 30px;
   }
+    .button-cv{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 280px;
+  width: 220px;
+  text-align: center;
+}
 }
 }

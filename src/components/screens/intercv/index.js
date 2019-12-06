@@ -10,12 +10,14 @@ class Inter extends Component {
       <div className="Inter">
         <NavLink to="/cv">
           <div className="wrapper">
+          <div className="button-cv">
           <FontAwesomeIcon
               icon="id-card"
-              color="rgb(0, 3, 44)"
+              color="rgb(236, 208, 37)"
               size="md"
             />
            Mon CV
+           </div>
           </div>
         </NavLink>
       </div>

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import AwesomeSlider from 'react-awesome-slider';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+import 'react-awesome-slider/dist/styles.css';
 import profil from "../../../assets/profil.jpg";
 import styles from 'react-awesome-slider/src/styles';
 import js from '../../../assets/js.png';
@@ -15,6 +17,7 @@ import './style.css';
 
 class About extends Component {
   render() {
+    const AutoplaySlider = withAutoplay(AwesomeSlider);
     const about = [{
       id : 1,
       text: "Ayant une forte appétence pour l'informatique c'est tout naturellement que j'ai décidé de me former sur le langage Javascript et notamment le framework React, coté back-end j'utilise Node. Je suis passionné par mon travail et curieux d'en apprendre un peu plus chaque jour.",
@@ -25,7 +28,7 @@ class About extends Component {
     },
     {
       id: 3,
-      text: "J'ai réalisé plusieurs projets visibles en cliquant sur la catégorie 'mes projets' tout à droite de l'écran"
+      text: "J'ai réalisé plusieurs projets visibles en cliquant sur la catégorie 'mes projets' tout à droite de l'écran ou en bas si vous êtes en version mobile"
     }
     ]
     return(
@@ -46,20 +49,32 @@ class About extends Component {
         <img src={bootstrap} alt="bootstrap"/>
         <img src={mysql} alt="mysql"/>
         </div>
-        
-      <AwesomeSlider
+        <AutoplaySlider
+    play={true}
+    cancelOnInteraction={false} // should stop playing on user interaction
+    interval={5000}
+     cssModule={styles}
+     style={{background : "white", top: '10px', height: "50%"}}
+        organicArrows
+        className="align"
+        zIndex={0}
+  >
+      {/* <AwesomeSlider
+        play={true}
         cssModule={styles}
         bullets
         style={{background : "white", top: '10px', height: "50%"}}
         organicArrows
         className="align"
         zIndex={0}
-      >
+      > */}
+      
          {
               about.map((item, i) => <p className="description">{item.text}</p>)
             }
        
-      </AwesomeSlider>
+      {/* </AwesomeSlider> */}
+      </AutoplaySlider>
         {/* <p className="description">
           Ayant une forte appétence pour l'informatique
            c'est tout naturellement que j'ai décidé
